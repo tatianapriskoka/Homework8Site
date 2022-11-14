@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.header_button {
+    background-color: #5222D0;
+    border-radius: 100px;
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    color: #FFFFFf;
+    border: none;
+    padding: 15px;
+    height: 90%;
+}
+
+.footer_navigation_black {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 10%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.footer_notext {
+    display: none;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 80%;
+    padding: 10px;
+    height: 80%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.section_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    grid-gap: 25px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.card_image {
+    background-color: #EC615B;
+}
+
+.card_title {
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.card_title_white {
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 1em;
+}
+
+.card_button {
+    background-color: #5222D0;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    color: #FFFFFF;
+    margin: 1em;
+}
+
+.section_head {
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 1em;
+}
+
+.card_text {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    text-align: justify;
+}
+
+input {
+    margin: 1em;
+    padding: 5px;
+}
