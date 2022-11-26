@@ -38,6 +38,7 @@
     height: 10%;
     margin-bottom: 1em;
     margin-top: 1em;
+    color: black;
 }
 
 .footer_notext {
@@ -122,4 +123,24 @@
 input {
     margin: 1em;
     padding: 5px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    color: #000000;
+}
+
+li:hover {
+    opacity: 0.8;
+}
+
+li {
+    list-style-type: none;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
 }

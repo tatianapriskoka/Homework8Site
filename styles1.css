@@ -88,3 +88,22 @@
     color: #000000;
     padding: 20px;
 }
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+li:hover {
+    opacity: 0.8;
+}
+
+li {
+    list-style-type: none;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+}
